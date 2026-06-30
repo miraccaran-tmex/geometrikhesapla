@@ -284,9 +284,9 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Firebrick;
+            button2.BackColor = Color.FromArgb(255, 255, 128);
             button2.Font = new Font("Segoe UI", 15F);
-            button2.ForeColor = SystemColors.ControlLight;
+            button2.ForeColor = SystemColors.ActiveCaptionText;
             button2.Location = new Point(12, 726);
             button2.Name = "button2";
             button2.Size = new Size(1028, 41);
