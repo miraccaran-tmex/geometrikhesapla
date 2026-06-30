@@ -100,6 +100,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 255, 192);
             ClientSize = new Size(800, 450);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
