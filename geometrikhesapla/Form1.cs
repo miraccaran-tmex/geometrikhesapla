@@ -1,3 +1,5 @@
+using geometrikhesapla.Properties;
+
 namespace geometrikhesapla
 {
     public partial class Form1 : Form
@@ -28,7 +30,8 @@ namespace geometrikhesapla
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Form2 form2 = new Form2();
+            form2.Show();
         }
     }
 }

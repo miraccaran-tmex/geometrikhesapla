@@ -291,7 +291,7 @@
             button2.Name = "button2";
             button2.Size = new Size(1028, 41);
             button2.TabIndex = 4;
-            button2.Text = "SAYFAYI KAPAT KRAL";
+            button2.Text = "İKİNCİ FORMDA TOPLA ÇIKAR";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
