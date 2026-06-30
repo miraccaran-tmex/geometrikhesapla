@@ -213,7 +213,7 @@
             // 
             // panel4
             // 
-            panel4.BackColor = Color.Cyan;
+            panel4.BackColor = Color.FromArgb(192, 255, 255);
             panel4.Controls.Add(label2);
             panel4.Controls.Add(karesonuc);
             panel4.Controls.Add(textBox4);
