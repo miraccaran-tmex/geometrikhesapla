@@ -149,7 +149,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(0, 192, 0);
+            panel3.BackColor = Color.FromArgb(255, 192, 192);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(dikdortgensonuc);
             panel3.Controls.Add(textBox3);
