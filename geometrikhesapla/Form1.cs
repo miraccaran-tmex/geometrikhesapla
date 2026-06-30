@@ -9,16 +9,21 @@ namespace geometrikhesapla
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int kenar=Convert.ToInt32(textBox4.Text);
+            int kenar = Convert.ToInt32(textBox4.Text);
             int ksonuc = kenar * kenar;
             karesonuc.Text = ksonuc.ToString();
-            int kısak=Convert.ToInt32(textBox2.Text);
+            int kısak = Convert.ToInt32(textBox2.Text);
             int uzunk = Convert.ToInt32(textBox3.Text);
             int dsonuc = kısak * uzunk;
             dikdortgensonuc.Text = dsonuc.ToString();
-            double yaricap=Convert.ToDouble(textBox1.Text);
+            double yaricap = Convert.ToDouble(textBox1.Text);
             double dairealan = Math.PI * (yaricap * yaricap);
             dairesonuc.Text = dairealan.ToString();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

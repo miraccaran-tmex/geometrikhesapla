@@ -148,7 +148,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(255, 192, 255);
+            panel3.BackColor = Color.FromArgb(0, 192, 0);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(dikdortgensonuc);
             panel3.Controls.Add(textBox3);
@@ -160,6 +160,7 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(259, 491);
             panel3.TabIndex = 2;
+            panel3.Paint += panel3_Paint;
             // 
             // label3
             // 
