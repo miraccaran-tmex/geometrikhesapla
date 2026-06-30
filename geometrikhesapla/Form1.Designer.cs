@@ -284,14 +284,14 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Red;
+            button2.BackColor = Color.Firebrick;
             button2.Font = new Font("Segoe UI", 15F);
             button2.ForeColor = SystemColors.ControlLight;
             button2.Location = new Point(12, 726);
             button2.Name = "button2";
             button2.Size = new Size(1028, 41);
             button2.TabIndex = 4;
-            button2.Text = "SAYFAYI KAPAT";
+            button2.Text = "SAYFAYI KAPAT KRAL";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
