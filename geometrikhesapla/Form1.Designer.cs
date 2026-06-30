@@ -83,7 +83,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(255, 255, 128);
+            panel2.BackColor = Color.DarkSeaGreen;
             panel2.Controls.Add(label4);
             panel2.Controls.Add(dairesonuc);
             panel2.Controls.Add(textBox1);
@@ -148,7 +148,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(255, 192, 255);
+            panel3.BackColor = Color.FromArgb(0, 192, 0);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(dikdortgensonuc);
             panel3.Controls.Add(textBox3);
@@ -160,6 +160,7 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(259, 491);
             panel3.TabIndex = 2;
+            panel3.Paint += panel3_Paint;
             // 
             // label3
             // 
@@ -284,7 +285,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 64, 0);
+            BackColor = Color.FromArgb(64, 64, 0);
             ClientSize = new Size(1052, 788);
             Controls.Add(button1);
             Controls.Add(panel3);
