@@ -64,7 +64,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(192, 192, 0);
+            panel1.BackColor = Color.FromArgb(255, 224, 192);
             panel1.Controls.Add(label1);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
