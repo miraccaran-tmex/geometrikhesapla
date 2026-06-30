@@ -83,7 +83,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(255, 255, 128);
+            panel2.BackColor = Color.DarkSeaGreen;
             panel2.Controls.Add(label4);
             panel2.Controls.Add(dairesonuc);
             panel2.Controls.Add(textBox1);
