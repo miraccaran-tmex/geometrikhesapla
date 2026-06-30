@@ -52,6 +52,7 @@
             kenar5 = new Label();
             pictureBox3 = new PictureBox();
             button1 = new Button();
+            button2 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -281,12 +282,26 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Red;
+            button2.Font = new Font("Segoe UI", 15F);
+            button2.ForeColor = SystemColors.ControlLight;
+            button2.Location = new Point(12, 726);
+            button2.Name = "button2";
+            button2.Size = new Size(1028, 41);
+            button2.TabIndex = 4;
+            button2.Text = "SAYFAYI KAPAT";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 0);
             ClientSize = new Size(1052, 788);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(panel3);
             Controls.Add(panel4);
@@ -333,5 +348,6 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private Button button2;
     }
 }
