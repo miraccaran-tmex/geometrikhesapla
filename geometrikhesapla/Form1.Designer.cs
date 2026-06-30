@@ -32,6 +32,7 @@
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
+            label4 = new Label();
             dairesonuc = new Label();
             textBox1 = new TextBox();
             yarıcaplabel = new Label();
@@ -51,7 +52,6 @@
             kenar5 = new Label();
             pictureBox3 = new PictureBox();
             button1 = new Button();
-            label4 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -93,6 +93,15 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(237, 491);
             panel2.TabIndex = 1;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(14, 453);
+            label4.Name = "label4";
+            label4.Size = new Size(84, 15);
+            label4.TabIndex = 4;
+            label4.Text = "Dairenin Alanı:";
             // 
             // dairesonuc
             // 
@@ -260,9 +269,9 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Red;
+            button1.BackColor = Color.Silver;
             button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            button1.ForeColor = SystemColors.Control;
+            button1.ForeColor = Color.FromArgb(0, 192, 0);
             button1.Location = new Point(12, 661);
             button1.Name = "button1";
             button1.Size = new Size(1028, 38);
@@ -270,15 +279,6 @@
             button1.Text = "HESAPLA";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(14, 453);
-            label4.Name = "label4";
-            label4.Size = new Size(84, 15);
-            label4.TabIndex = 4;
-            label4.Text = "Dairenin Alanı:";
             // 
             // Form1
             // 
