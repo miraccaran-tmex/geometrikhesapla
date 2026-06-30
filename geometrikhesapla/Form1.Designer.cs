@@ -148,7 +148,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.Fuchsia;
+            panel3.BackColor = Color.FromArgb(255, 192, 255);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(dikdortgensonuc);
             panel3.Controls.Add(textBox3);
